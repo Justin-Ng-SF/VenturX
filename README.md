@@ -1,4 +1,13 @@
 -------------------------------------------------------------
+How to use:
+-------------------------------------------------------------
+If running locally, go to localhost:5000/greetings/ and type your name after the slash.
+If you wish to not run it locally, use the ip address http://3.15.19.81:8888/greetings/ or the DNS ec2-3-15-19-81.us-east-2.compute.amazonaws.com/greetings/ and type your name after the slash
+*Note, will not accept the following characters: <>/?\|!@#$%^&*()`~
+-------------------------------------------------------------
+
+
+-------------------------------------------------------------
 To run locally:
 -------------------------------------------------------------
 install dependences:
@@ -21,10 +30,7 @@ docker run -it -p 8000:5000 venturx-node-server
 
 
 -------------------------------------------------------------
-Link:
--------------------------------------------------------------
- https://venturxserver.herokuapp.com/greetings/VenturX
--------------------------------------------------------------
+
 
 
 Technologies used:
