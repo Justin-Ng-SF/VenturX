@@ -1,4 +1,44 @@
 -------------------------------------------------------------
+To run locally:
+-------------------------------------------------------------
+install dependences:
+npm install express express-validator 
+
+then go to http://localhost:5000/greetings/yournamehere
+
+
+-------------------------------------------------------------
+To run image locally:
+-------------------------------------------------------------
+make sure you have Docker downloaded
+make sure node_modules is not in the root directory when building image
+
+create image: 
+docker build -t image-name .
+
+run image on port 8000: 
+docker run -it -p 8000:5000 venturx-node-server
+
+
+-------------------------------------------------------------
+Link:
+-------------------------------------------------------------
+ https://venturxserver.herokuapp.com/greetings/VenturX
+-------------------------------------------------------------
+
+
+Technologies used:
+-------------------------------------------------------------
+Express - used for api
+Express Validator - validate input
+Node - used for server
+Heroku - deployed with
+Docker - used to containerize 
+-------------------------------------------------------------
+
+
+Instructions given:
+-------------------------------------------------------------
 Build a node express server with a GET endpoint for a "greetings" resource that takes a parameter :name and responds with a text greeting.
 E.g.:
 GET /greetings/VenturX
